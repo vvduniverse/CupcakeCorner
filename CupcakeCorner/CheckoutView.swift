@@ -13,7 +13,10 @@ struct CheckoutView: View {
     var body: some View {
         ScrollView {
             VStack {
-                AsyncImage(url: URL(string: "https://hws.dev/img/cupcakes@3x.jpg"), scale: 3) { image in
+            
+//                AsyncImage(url: URL(string: "https://hws.dev/img/cupcakes@3x.jpg"), scale: 3) {
+                AsyncImage(url: URL(string: "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/unicorn_cupcakes_67877_16x9.jpg"), scale: 3) {
+                image in
                     image
                         .resizable()
                         .scaledToFit()
